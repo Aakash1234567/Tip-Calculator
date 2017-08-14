@@ -9,13 +9,12 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100vh;
 	color: #532827;
 }
 
 #container {
 	width: 400px;
-	margin: 40px auto 0;
+	margin: 40px auto 20px;
 	padding: 50px;
 	background: url('paper.png');
 	box-shadow: 0 10px 15px -8px #000;
