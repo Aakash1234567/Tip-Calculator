@@ -1,3 +1,19 @@
+
+
+
+
+
+
+
+
+
+function calculateTip() {
+	var billAmount = document.getElementById('billAmount').value;
+	var serviceQuality = document.getElementById('serviceQuality').value;
+	var numPeople = document.getElementById('totalPeople').value;
+}
+
+
 //Hide the tip amount on load
 document.getElementById('totalTip').style.display = 'none'
 
