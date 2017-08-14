@@ -8,9 +8,17 @@
 
 
 function calculateTip() {
+
+	//Store data
 	var billAmount = document.getElementById('billAmount').value;
 	var serviceQuality = document.getElementById('serviceQuality').value;
 	var numPeople = document.getElementById('totalPeople').value;
+
+	//Quick validation
+	if (billAmount === "" || serviceQuality == 0) {
+		window.alert("Please enter some values to get this baby up and running!!");
+		return;
+
 }
 
 
